@@ -91,7 +91,7 @@ export function BlogPreview({
 
       <div className="flex items-center gap-2 text-muted-foreground mb-8">
         <UserCircleIcon className="h-6 w-6 stroke-orange-300" />
-        <span>Kunal Verma</span>
+        <span>Krishankant</span>
         <Separator orientation="vertical" className="h-4" />
         <span>{format(new Date(), "MMMM d, yyyy")}</span>
       </div>
