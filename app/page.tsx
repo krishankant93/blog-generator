@@ -37,7 +37,7 @@ export default function Home() {
   const { toast } = useToast();
 
   // Load saved state
-  useEffect(() => {
+ /* useEffect(() => {
     const savedState = loadFromStorage();
     if (!savedState) return;
 
