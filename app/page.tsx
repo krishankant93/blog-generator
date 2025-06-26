@@ -58,7 +58,7 @@ export default function Home() {
   }, []);
 
   // Save state changes
-  useEffect(() => {
+  /* useEffect(() => {
     const state = {
       messages,
       blogBlocks,
@@ -71,7 +71,7 @@ export default function Home() {
       initialPrompt,
     };
     saveToStorage(state);
-  }, [messages, blogBlocks, editedBlocks, blogTitle, editedTitle, selectedBlogType, internalLinks, currentStep, initialPrompt]);
+  }, [messages, blogBlocks, editedBlocks, blogTitle, editedTitle, selectedBlogType, internalLinks, currentStep, initialPrompt]); */
 
   const addMessage = (role: 'user' | 'assistant', content: string) => {
     setMessages(prev => [...prev, { role, content }]);
